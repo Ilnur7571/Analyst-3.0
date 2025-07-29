@@ -1,0 +1,181 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Страница — 1" id="QEj8fuQ95oNrZebqC_5q">
+    <mxGraphModel dx="1726" dy="1211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-94" value="" style="dashed=0;shape=line;strokeWidth=1;noLabel=1;strokeColor=#eeeeee;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="224" width="346" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1403" value="Desktop version" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="945" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1517" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-j5pm6Wnno6UDfw_zzU-1428" target="c-j5pm6Wnno6UDfw_zzU-1443">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1428" value="Desktop version" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="109" width="945" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1429" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); margin: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Как пользователь, я хочу искать товары, чтобы быстро находить нужное&lt;/font&gt;&lt;/pre&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="169" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1435" value="Проверить" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="199" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1436" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot; class=&quot;token title important&quot;&gt;Результат проверки:&lt;/span&gt;&lt;br&gt;✅ &lt;span style=&quot;font-weight: 700;&quot; class=&quot;token bold&quot;&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;Valuable&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt;: Ценность для пользователя указана  &lt;br&gt;⚠️ &lt;span style=&quot;font-weight: 700;&quot; class=&quot;token bold&quot;&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;Estimable&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt;: Найдено неизмеримое требование:  &lt;br&gt;   ▸ &lt;span style=&quot;font-style: italic;&quot; class=&quot;token italic&quot;&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;&quot;быстро&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;*&lt;/span&gt;&lt;/span&gt; → замените на &lt;span style=&quot;font-style: italic;&quot; class=&quot;token italic&quot;&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;&quot;за 2 клика&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;*&lt;/span&gt;&lt;/span&gt;  &lt;br&gt;💡 &lt;span style=&quot;font-weight: 700;&quot; class=&quot;token bold&quot;&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;Пример из базы знаний&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt;:  &lt;br&gt;   &quot;Как пользователь, я хочу фильтровать товары по цене за 3 клика&quot;  &lt;br&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="339" width="580" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1437" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=#666666;fillColor=#ffffff;fontColor=#0000FF;fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="629" width="570" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1438" value="Исправить" style="text;strokeColor=#008CFF;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#008CFF;fontColor=#ffffff;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1437">
+          <mxGeometry width="195" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1439" value="Копировать в Jira" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1437">
+          <mxGeometry x="195" width="175" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1440" value="Сохранить в историю" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1437">
+          <mxGeometry x="370" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1442" value="" style="dashed=0;shape=line;strokeWidth=1;noLabel=1;strokeColor=#eeeeee;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="224" width="346" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1443" value="Desktop version" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="109" width="945" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1444" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); margin: 0px !important;&quot;&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: Helvetica; white-space-collapse: collapse;&quot;&gt;Введите User Story&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2645" y="169" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1450" value="Проверить" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="199" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1451" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot; class=&quot;token title important&quot;&gt;История проверок&lt;/span&gt;&lt;br&gt;Ваш прогресс за последние 7 дней&lt;br&gt;&lt;br&gt;&lt;br&gt;INVEST-мастерство: ▰▰▰▰▰▰▱▱▱ 65/100 (+10% за неделю)  &lt;br&gt;&lt;span style=&quot;font-style: italic;&quot; class=&quot;token italic&quot;&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;&quot;Вы редко забываете ценность (Valuable), но часто пропускаете Estimable&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot; class=&quot;token title important&quot;&gt;Дата               | Текст                          | Ошибки&lt;br&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;---------------------------------------------------------&lt;/span&gt;&lt;/span&gt;&lt;br&gt;2024-03-10 14:30 | &quot;Как пользователь, я...&quot;      | Estimable, Small  &lt;br&gt;2024-03-09 11:15 | &quot;Как система, я хочу...&quot;      | Valuable&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2645" y="339" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1452" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=#666666;fillColor=#ffffff;fontColor=#0000FF;fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="629" width="570" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1453" value="Только с ошибками" style="text;strokeColor=#008CFF;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#008CFF;fontColor=#ffffff;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1452">
+          <mxGeometry width="195" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1454" value="За месяц" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1452">
+          <mxGeometry x="195" width="175" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1455" value="Экспорт в CSV" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1452">
+          <mxGeometry x="370" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1456" value="" style="dashed=0;shape=line;strokeWidth=1;noLabel=1;strokeColor=#eeeeee;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="1015" width="346" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1457" value="Desktop version" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="900" width="945" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1458" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); margin: 0px !important;&quot;&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: Helvetica; white-space-collapse: collapse;&quot;&gt;Введите User Story&lt;/span&gt;&lt;/pre&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="960" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1464" value="Проверить" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2185" y="990" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1465" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot; class=&quot;token title important&quot;&gt;Исходная Story                    | Исправленная версия&lt;br&gt;&lt;span style=&quot;color: rgb(56, 58, 66);&quot; class=&quot;token punctuation&quot;&gt;------------------------------------------------------------------&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&quot;Как пользователь я хочу искать   | &quot;Как пользователь, я хочу искать тов    &lt;/pre&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin: 0px !important;&quot;&gt;товары, чтобы быстро находить     |ары, чтобы за 2 клика находить нужное&quot;&lt;/pre&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;span style=&quot;font-size: 12.573px; white-space-collapse: collapse; background-color: transparent;&quot;&gt;&amp;nbsp;нужное&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; font-size: 12.573px; margin: 0px !important;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1558.75" y="1130" width="612.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1466" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=#666666;fillColor=#ffffff;fontColor=#0000FF;fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="1410" width="225" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1467" value="Показать объяснение" style="text;strokeColor=#008CFF;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=#008CFF;fontColor=#ffffff;fontSize=17;" vertex="1" parent="c-j5pm6Wnno6UDfw_zzU-1466">
+          <mxGeometry width="225" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1468" value="Сохранить шаблон" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1410" width="225" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1470" value="Заменить текст" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=inherit;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1410" width="225" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1471" value="Начальный экран" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="70" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1472" value="&lt;div&gt;Вводим нашу User Story&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="860" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1479" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); margin: 0px !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Введите User Story&lt;/font&gt;&lt;/pre&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="169" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1480" value="Проверить" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="915" y="199" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1481" value="Desktop version" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="900" width="945" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1487" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; margin: 0px !important; color: rgb(73, 73, 73);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Как пользователь, я хочу искать товары, чтобы быстро находить нужное&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="969" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1488" value="Проверить" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="915" y="999" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1489" value="Desktop version" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="1670" width="945" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1495" value="&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; color: rgb(73, 73, 73); margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; overflow: auto; padding: 9.144px 13.716px; text-wrap-mode: wrap; word-break: break-all; margin: 0px !important; color: rgb(73, 73, 73);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Как пользователь, я хочу искать товары, чтобы быстро находить нужное&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="1739" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1496" value="Проверяю..." style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="1769" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1431" value="История" style="text;spacing=0;strokeColor=inherit;align=center;verticalAlign=middle;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=#666666;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="140" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1497" value="История" style="text;spacing=0;strokeColor=inherit;align=center;verticalAlign=middle;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=#666666;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1498" value="История" style="text;spacing=0;strokeColor=inherit;align=center;verticalAlign=middle;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=#666666;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="140" y="930" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1499" value="История" style="text;spacing=0;strokeColor=inherit;align=center;verticalAlign=middle;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=#666666;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="1700" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1505" value="История" style="text;spacing=0;strokeColor=inherit;align=center;verticalAlign=middle;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=#666666;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="140" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1506" value="История" style="text;spacing=0;strokeColor=inherit;align=center;verticalAlign=middle;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=inherit;fontColor=#666666;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="930" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1507" value="Экран проверки AI-агента" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="70" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1508" value="Экран кнопки &quot;Исправить&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1426" y="860" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1509" value="Экран кнопки &quot;История&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1510" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.502;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c-j5pm6Wnno6UDfw_zzU-1403" target="c-j5pm6Wnno6UDfw_zzU-1481">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="990" as="sourcePoint" />
+            <mxPoint x="1520" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1511" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.548;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="c-j5pm6Wnno6UDfw_zzU-1489">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="1510" as="sourcePoint" />
+            <mxPoint x="640" y="1705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1512" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c-j5pm6Wnno6UDfw_zzU-1489" target="c-j5pm6Wnno6UDfw_zzU-1428">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1513" value="нажимаем кнопку проверить" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1624" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1515" value="После проверки выводит ответ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="414" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-j5pm6Wnno6UDfw_zzU-1516" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.564;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.559;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c-j5pm6Wnno6UDfw_zzU-1428" target="c-j5pm6Wnno6UDfw_zzU-1457">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="980" as="sourcePoint" />
+            <mxPoint x="1850" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
