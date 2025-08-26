@@ -1,0 +1,35 @@
+			
+Атрибут	Формат	Описание	Доп. информация
+			
+users			
+user_id	UUID	Уникальный идентификатор пользователя	PK
+email	VARCHAR	Email пользователя	Уникальный
+created_at	TIMESTAMP	Дата создания записи	
+			
+reports			
+report_id	UUID	Уникальный идентификатор отчёта	PK
+user_story_id	UUID	Ссылка на проверяемую User Story	FK → user_stories.id
+status	ENUM(success,error)	Статус проверки	
+created_at	TIMESTAMP	Дата анализа	
+			
+violations			
+violation_id	UUID	Уникальный идентификатор нарушения	PK
+report_id	UUID	Ссылка на отчёт	FK → reports.id
+criteria	ENUM(INVEST)	Какой критерий нарушен	Independent, Negotiable, Valuable…
+fragment	VARCHAR	Фрагмент текста с ошибкой	
+suggestion	VARCHAR	Рекомендация для исправления	
+position	INT	Позиция в тексте	Опционально
+reference_story_id	INT	Эталонная история	FK → reference_stories.id
+			
+user_stories			
+id	UUID	Уникальный идентификатор User Story	PK
+user_id	UUID	Связь с пользователем	FK → users.id
+text	VARCHAR	Текст User Story	
+created_at	TIMESTAMP	Дата загрузки	
+			
+reference_stories			
+id	UUID	Уникальный ID эталонной User Story	PK
+text	VARCHAR	Корректная User Story	
+tags	VARCHAR	Теги (например, INVEST)	
+created_at	TIMESTAMP	Дата добавления	
+			
