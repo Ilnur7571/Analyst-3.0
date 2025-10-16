@@ -1,0 +1,501 @@
+openapi: 3.0.0
+info:
+  title: INVEST-Checker AI Agent API
+  description: AI-агент для анализа User Stories по критериям INVEST
+  version: 1.0.0
+  contact:
+    name: INVEST-Checker Team
+    url: https://github.com/Ilnur7571/INVEST-Checker-Agent#
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://t.me/INVEST_Checker_US_bot
+
+paths:
+  /analyze:
+    post:
+      summary: Анализ User Story по критериям INVEST
+      description: Анализирует User Story и возвращает оценку по критериям INVEST
+      operationId: analyzeUserStory
+      tags:
+        - Analysis
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnalyzeRequest"
+            example:
+              user_story: "Как пользователь, я хочу регистрироваться по email, чтобы получить доступ к личному кабинету"
+              similarity_threshold: 0.78
+              use_cache: true
+      responses:
+        "200":
+          description: Успешный анализ User Story
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisResponse"
+        "400":
+          description: Невалидная User Story
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "429":
+          description: Превышен лимит запросов к GigaChat
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RateLimitError"
+        "503":
+          description: Сервис GigaChat недоступен
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ServiceUnavailableError"
+
+  /improve:
+    post:
+      summary: Улучшение User Story
+      description: Улучшает User Story с сохранением цели и ценности
+      operationId: improveUserStory
+      tags:
+        - Improvement
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ImproveRequest"
+            example:
+              user_story: "Как пользователь, я хочу регистрироваться, чтобы получить доступ"
+              current_analysis: "Оценка: 4/6\nПроблемы: N - нет обсуждаемости"
+              improvement_focus: ["negotiable", "testable"]
+      responses:
+        "200":
+          description: Успешное улучшение User Story
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ImprovementResponse"
+        "400":
+          description: Не удалось улучшить User Story
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /stories/search:
+    get:
+      summary: Поиск похожих User Stories
+      description: Ищет похожие User Stories в базе данных
+      operationId: searchStories
+      tags:
+        - Stories
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Текст для поиска
+          example: "регистрация пользователя"
+        - name: threshold
+          in: query
+          schema:
+            type: number
+            format: float
+            minimum: 0.0
+            maximum: 1.0
+          description: Порог схожести
+          example: 0.75
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+          description: Лимит результатов
+          example: 10
+        - name: only_golden
+          in: query
+          schema:
+            type: boolean
+          description: Только золотые истории
+          example: true
+      responses:
+        "200":
+          description: Успешный поиск
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SearchResponse"
+
+  /statistics:
+    get:
+      summary: Получение статистики системы
+      description: Возвращает статистику использования и производительности
+      operationId: getStatistics
+      tags:
+        - System
+      parameters:
+        - name: period
+          in: query
+          schema:
+            type: string
+            enum: [day, week, month]
+          description: Период для статистики
+          example: week
+      responses:
+        "200":
+          description: Успешное получение статистики
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StatisticsResponse"
+
+  /stories:
+    post:
+      summary: Добавление User Story в базу
+      description: Добавляет новую User Story с анализом в базу данных
+      operationId: addStory
+      tags:
+        - Stories
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AddStoryRequest"
+            example:
+              query: "Как пользователь, я хочу регистрироваться по email, чтобы получить доступ к личному кабинету"
+              answer: "Оценка: 5/6\nАнализ: ..."
+              is_golden: true
+              score: 5
+      responses:
+        "201":
+          description: User Story успешно добавлена
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AddStoryResponse"
+        "409":
+          description: User Story уже существует
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ConflictError"
+
+components:
+  schemas:
+    AnalyzeRequest:
+      type: object
+      required:
+        - user_story
+      properties:
+        user_story:
+          type: string
+          description: Текст User Story для анализа
+          example: "Как пользователь, я хочу регистрироваться по email, чтобы получить доступ к личному кабинету"
+        similarity_threshold:
+          type: number
+          format: float
+          minimum: 0.0
+          maximum: 1.0
+          description: Порог схожести для поиска
+          default: 0.78
+        use_cache:
+          type: boolean
+          description: Использовать кэширование
+          default: true
+
+    AnalysisResponse:
+      type: object
+      properties:
+        analysis:
+          $ref: "#/components/schemas/AnalysisResult"
+        source:
+          type: string
+          enum: [cache, database, gigachat]
+          description: Источник анализа
+        processing_time:
+          type: number
+          format: float
+          description: Время обработки в секундах
+
+    AnalysisResult:
+      type: object
+      properties:
+        score:
+          type: integer
+          minimum: 0
+          maximum: 6
+          description: Оценка по INVEST
+        criteria:
+          $ref: "#/components/schemas/INVESTCriteria"
+        recommendations:
+          type: array
+          items:
+            type: string
+          description: Рекомендации по улучшению
+        similar_stories:
+          type: array
+          items:
+            $ref: "#/components/schemas/SimilarStory"
+          description: Похожие истории из базы
+
+    INVESTCriteria:
+      type: object
+      properties:
+        independent:
+          type: boolean
+          description: Независимость
+        negotiable:
+          type: boolean
+          description: Обсуждаемость
+        valuable:
+          type: boolean
+          description: Ценность
+        estimable:
+          type: boolean
+          description: Оцениваемость
+        small:
+          type: boolean
+          description: Маленький размер
+        testable:
+          type: boolean
+          description: Тестируемость
+
+    SimilarStory:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID истории
+        query:
+          type: string
+          description: Текст истории
+        similarity:
+          type: number
+          format: float
+          description: Процент схожести
+        score:
+          type: integer
+          description: Оценка INVEST
+
+    ImproveRequest:
+      type: object
+      required:
+        - user_story
+      properties:
+        user_story:
+          type: string
+          description: Текст User Story для улучшения
+        current_analysis:
+          type: string
+          description: Текущий анализ (опционально)
+        improvement_focus:
+          type: array
+          items:
+            type: string
+            enum:
+              [independent, negotiable, valuable, estimable, small, testable]
+          description: Критерии для фокуса улучшения
+
+    ImprovementResponse:
+      type: object
+      properties:
+        improved_story:
+          type: string
+          description: Улучшенная версия User Story
+        improvements:
+          type: array
+          items:
+            type: string
+          description: Список внесенных улучшений
+        original_score:
+          type: integer
+          description: Оценка оригинальной версии
+        expected_score:
+          type: integer
+          description: Ожидаемая оценка улучшенной версии
+
+    SearchResponse:
+      type: object
+      properties:
+        stories:
+          type: array
+          items:
+            $ref: "#/components/schemas/Story"
+        total_count:
+          type: integer
+          description: Общее количество найденных историй
+
+    Story:
+      type: object
+      properties:
+        id:
+          type: integer
+        query:
+          type: string
+        answer:
+          type: string
+        similarity:
+          type: number
+          format: float
+        score:
+          type: integer
+        is_golden:
+          type: boolean
+
+    StatisticsResponse:
+      type: object
+      properties:
+        statistics:
+          $ref: "#/components/schemas/SystemStatistics"
+        performance:
+          $ref: "#/components/schemas/PerformanceMetrics"
+
+    SystemStatistics:
+      type: object
+      properties:
+        total_stories:
+          type: integer
+        golden_stories:
+          type: integer
+        average_score:
+          type: number
+          format: float
+        cache_hit_rate:
+          type: number
+          format: float
+        total_requests:
+          type: integer
+        successful_analyses:
+          type: integer
+
+    PerformanceMetrics:
+      type: object
+      properties:
+        average_response_time:
+          type: number
+          format: float
+        gigachat_availability:
+          type: number
+          format: float
+
+    AddStoryRequest:
+      type: object
+      required:
+        - query
+        - answer
+      properties:
+        query:
+          type: string
+          description: Текст User Story
+        answer:
+          type: string
+          description: Анализ INVEST
+        is_golden:
+          type: boolean
+          description: Золотая история
+          default: false
+        score:
+          type: integer
+          minimum: 0
+          maximum: 6
+          description: Оценка INVEST
+
+    AddStoryResponse:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID созданной записи
+        status:
+          type: string
+          enum: [created]
+        normalized_query:
+          type: string
+          description: Нормализованный текст
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              enum: [INVALID_USER_STORY, IMPROVEMENT_FAILED]
+            message:
+              type: string
+            details:
+              type: object
+
+    RateLimitError:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              enum: [RATE_LIMIT_EXCEEDED]
+            message:
+              type: string
+            retry_after:
+              type: integer
+
+    ServiceUnavailableError:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              enum: [GIGACHAT_UNAVAILABLE, DATABASE_UNAVAILABLE]
+            message:
+              type: string
+
+    ConflictError:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              enum: [STORY_ALREADY_EXISTS]
+            message:
+              type: string
+            existing_id:
+              type: integer
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - ApiKeyAuth: []
+  - BearerAuth: []
+
+tags:
+  - name: Analysis
+    description: Операции анализа User Stories
+  - name: Improvement
+    description: Операции улучшения User Stories
+  - name: Stories
+    description: Управление базой User Stories
+  - name: System
+    description: Системные операции и мониторинг
